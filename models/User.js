@@ -31,5 +31,5 @@ const userSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
 });
-
+// ควยตัง
 module.exports = mongoose.model("User", userSchema);
